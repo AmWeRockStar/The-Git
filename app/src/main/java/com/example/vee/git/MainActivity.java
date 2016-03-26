@@ -62,9 +62,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int num1 = Integer.parseInt(edtNumber1.getText().toString());
                 int num2 = Integer.parseInt(edtNumber2.getText().toString());
-
                 result = num1 - num2;
-                tvResult.setText(result);
+                tvResult.setText("" +result);
             }
         });
     }
