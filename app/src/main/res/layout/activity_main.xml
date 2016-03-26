@@ -8,23 +8,46 @@
     tools:context="com.example.vee.git.MainActivity">
 
     <EditText
-        android:hint="Number1"
         android:id="@+id/edtNumber1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Number1" />
 
     <EditText
-        android:hint="Number2"
         android:id="@+id/edtNumber2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/edtNumber1" />
+        android:layout_below="@id/edtNumber1"
+        android:hint="Number2" />
 
-    <Button
-        android:id="@+id/btnCalculate"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/edtNumber2"
-        android:text="Calculate" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" />
+        <Button
+            android:id="@+id/btnMul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x" />
+    </LinearLayout>
 
 </RelativeLayout>
