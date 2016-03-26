@@ -20,7 +20,7 @@ public class custom extends BaseAdapter{
 
     @Override
     public int getCount() {
-        return 10;
+        return 3000;
     }
 
     @Override
@@ -30,7 +30,7 @@ public class custom extends BaseAdapter{
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return 4000;
     }
 
     @Override
