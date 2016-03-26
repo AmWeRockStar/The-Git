@@ -9,7 +9,6 @@ import android.widget.BaseAdapter;
 
 
 public class custom extends BaseAdapter{
-
     private int id;
     private Context context;
 
