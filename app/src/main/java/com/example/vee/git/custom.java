@@ -7,11 +7,15 @@ import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.BaseAdapter;
 
+
 public class custom extends BaseAdapter{
+    private int id;
     private Context context;
 
-    public custom(Context ctx){
+    public custom(Context ctx, int id){
         this.context = ctx;
+        this.id = id;
+        System.out.print("Hello");
     }
 
     @Override
