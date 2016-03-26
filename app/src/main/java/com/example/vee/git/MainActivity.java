@@ -26,5 +26,7 @@ public class MainActivity extends AppCompatActivity  {
         tvResult = (TextView)findViewById(R.id.tvResult);
         btnPlus = (Button) findViewById(R.id.btnPlus);
 
+//        View.OnClickListener()
+
     }
 }
