@@ -15,7 +15,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="KKK"
-        android:textSize="180sp" />
+        android:text="Yao Yao"
+        android:layout_gravity="center"
+        android:textSize="130sp" />
+
 
 </RelativeLayout>
