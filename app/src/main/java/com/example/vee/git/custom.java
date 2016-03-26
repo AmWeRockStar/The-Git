@@ -9,7 +9,7 @@ import android.widget.BaseAdapter;
 /**
  * Created by วัชรัตน์ on 26/3/2559.
  */
-public class custom extends BaseAdapter{
+public class custom extends BaseAdapter {
 
     @Override
     public int getCount() {
