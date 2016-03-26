@@ -6,9 +6,6 @@ import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.BaseAdapter;
 
-/**
- * Created by วัชรัตน์ on 26/3/2559.
- */
 public class custom extends BaseAdapter{
 
     @Override
