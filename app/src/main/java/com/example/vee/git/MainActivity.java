@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         edtNumber2 = (EditText) findViewById(R.id.edtNumber2);
         btnMultiple = (Button) findViewById(R.id.btnMul);
 
+        setupViews();
+    }
+
+    private void setupViews() {
         View.OnClickListener multipleListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
