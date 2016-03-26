@@ -8,9 +8,10 @@ import android.widget.Adapter;
 import android.widget.BaseAdapter;
 
 public class custom extends BaseAdapter{
+    Context context;
 
     public custom(Context ctx){
-
+        this.context = ctx;
     }
 
     @Override
