@@ -16,18 +16,16 @@ public class custom extends BaseAdapter{
     public custom(Context ctx, int id){
         this.context = ctx;
         this.id = id;
-
     }
 
     @Override
     public int getCount() {
-        return 0;
-
+        return 10;
     }
 
     @Override
     public Object getItem(int position) {
-      return 0;
+      return 300;
     }
 
     @Override
