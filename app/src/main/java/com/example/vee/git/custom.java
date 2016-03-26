@@ -1,12 +1,17 @@
 package com.example.vee.git;
 
 import android.app.Activity;
+import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.BaseAdapter;
 
 public class custom extends BaseAdapter{
+
+    public custom(Context ctx){
+
+    }
 
     @Override
     public int getCount() {
