@@ -18,7 +18,7 @@
         android:id="@+id/edtNumber2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/edtNumber1" />
+        android:layout_below="@+id/edtNumber1" />
 
     <Button
         android:id="@+id/btnCalculate"
