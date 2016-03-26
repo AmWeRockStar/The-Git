@@ -17,5 +17,10 @@
         android:layout_height="wrap_content"
         android:text="Yao"
         android:textSize="50sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Kimhuang"
+        android:textSize="40dp"/>
 
 </LinearLayout>
