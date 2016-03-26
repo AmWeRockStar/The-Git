@@ -15,6 +15,7 @@ public class custom extends BaseAdapter{
     public custom(Context ctx, int id){
         this.context = ctx;
         this.id = id;
+        System.out.print("Hello");
     }
 
     @Override
