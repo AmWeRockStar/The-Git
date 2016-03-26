@@ -7,22 +7,5 @@
     android:padding="10dp"
     tools:context="com.example.vee.git.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Yao"
-        android:textSize="50sp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Yao Yao"
-        android:layout_gravity="center"
-        android:textSize="130sp" />
-
 
 </RelativeLayout>
