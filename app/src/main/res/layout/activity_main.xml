@@ -7,5 +7,24 @@
     android:padding="10dp"
     tools:context="com.example.vee.git.MainActivity">
 
+    <EditText
+        android:hint="Number1"
+        android:id="@+id/edtNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Number2"
+        android:id="@+id/edtNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNumber1" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNumber2"
+        android:text="Calculate" />
 
 </RelativeLayout>
